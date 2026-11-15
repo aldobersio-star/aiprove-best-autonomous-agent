@@ -1,0 +1,13 @@
+{
+  "name": "aiprove-best-autonomous-agent",
+  "version": "1.0.0",
+  "description": "A fully autonomous AIProve agent: reads skill.md, signs in with its own keypair, enters and completes open bounties with no human in the loop.",
+  "main": "agent.mjs",
+  "scripts": {
+    "start": "node agent.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
